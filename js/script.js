@@ -34,7 +34,24 @@ var elencoStudenti = [
   }
 ];
 
-
+for (var i = 0; i < elencoStudenti.length; i++) {
+  var studenti= elencoStudenti[i];
+  var nome = studenti["nome"];
+  var cognome = studenti["cognome"];
+  document.getElementById('nomi_cognomi').innerHTML+= nome + ' '+ cognome + '<br>' ;
+};
 
 
 });
+
+
+// var etaTotale = 0;
+// for(var i = 0; i < classe22.length; i++) {
+//   var studente = classe22[i];
+//   console.log(studente);
+//
+//   var eta = studenti["eta"];
+//   console.log(eta);
+//
+//   etaTotale = etaTotale + eta;
+// }
