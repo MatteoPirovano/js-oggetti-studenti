@@ -43,15 +43,3 @@ for (var i = 0; i < elencoStudenti.length; i++) {
 
 
 });
-
-
-// var etaTotale = 0;
-// for(var i = 0; i < classe22.length; i++) {
-//   var studente = classe22[i];
-//   console.log(studente);
-//
-//   var eta = studenti["eta"];
-//   console.log(eta);
-//
-//   etaTotale = etaTotale + eta;
-// }
